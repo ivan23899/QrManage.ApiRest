@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RR.QrManage.Domain\RR.QrManage.Domain.csproj" />
+    <ProjectReference Include="..\RR.QrManage.Framework\RR.QrManage.Framework.csproj" />
+    <ProjectReference Include="..\RR.QrManage.Log\RR.QrManage.Log.csproj" />
+  </ItemGroup>
+
+</Project>
